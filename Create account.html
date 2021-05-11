@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Create account</title>
+
+<style>
+
+table 
+{
+  font-family : Helvetica;
+  font-size : 100%;
+  font-weight: bold;
+}
+
+h1
+{
+   color: #ea503f;
+   font-family: Arial;
+}
+
+</style>
+
+<script>
+
+function f1()
+{
+	var elem = document.getElementById("date1");
+}
+
+function f2()
+{
+	var elem = document.getElementById("input1");
+}
+
+</script>
+
+<h1> Company Registration Form</h1>
+</head>
+<body>
+<form>
+	<table>
+<tr>
+			<td>
+				Name:
+			</td>
+
+			<td>
+				<input type=”name”  placeholder=”Name” name=””>
+			</td>
+		</tr>
+<tr>
+<td>
+<tr>
+			<td>
+				Surname:
+			</td>
+
+			<td>
+				<input type=”surname”  placeholder=”Surname” name=””>
+			</td>
+		</tr>
+<tr>
+<td>
+		<tr>
+			<td>
+				Email Address:
+			</td>
+
+			<td>
+				<input type=”mail”  placeholder=”email@yahoo.com” name=””>
+			</td>
+		</tr>
+<tr>
+<td>
+				Password:
+			</td>
+
+			<td>
+				<input type=”Password” placeholder=”*********” name=””>
+			</td>
+		</tr>
+<tr>
+<td>
+		<form onSubmit="f1()">
+				Date of birth:
+			</td>
+			
+			<td>
+				<input type="date" name="date1" id="date1">
+			</td>
+		</tr>
+<tr>
+<td>
+
+				Phone number:
+			</td>
+
+			<td>
+				<input type=”Phone number” placeholder=”07........” name=””>
+			</td>
+		</tr>
+<tr>
+<td>
+		<form onSubmit="f1()">
+				Observations:
+			</td>
+
+			<td>
+				<textarea id="input1" rows="3" cols="20"> you can write a text &#13;&#13; on more lines </textarea>
+		</tr>
+<tr>
+<td>
+</form> 
+
+	</table>
+
+
+<input type="checkbox" name="Male" value="Male"> Male<br>
+<input type="checkbox" name="Female" value="Female"> Female<br>
+
+<button type="Submit">Send your message</button>
+
+</body>
+</html>
